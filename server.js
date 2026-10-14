@@ -3,12 +3,14 @@ const express = require("express");
 const { initSchema } = require("./db");
 const reservationsRouter = require("./routes/reservations");
 const cloudprntRouter = require("./routes/cloudprnt");
+const printRelayRouter = require("./routes/print-relay");
 
 const app = express();
 app.use(express.json());
 
 app.use("/api", reservationsRouter);
 app.use("/cloudprnt", cloudprntRouter);
+app.use("/api/print-jobs", printRelayRouter);
 
 app.use(express.static(path.join(__dirname, "public")));
 
