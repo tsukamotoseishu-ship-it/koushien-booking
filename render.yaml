@@ -2,7 +2,7 @@ services:
   - type: web
     name: koushien-booking
     env: node
-    plan: starter
+    plan: free
     buildCommand: npm install
     startCommand: npm start
     envVars:
