@@ -40,12 +40,12 @@ https://www.star-m.jp/tsp100iii-wsw.html からfuturePRNTをダウンロード�
 
 このリポジトリの `print-relay/start.ps1` を開き、以下を書き換える：
 
-- `PRINT_RELAY_TOKEN` → `49842849d2f39ec7e1eeeab96313b715e6e0ad62fd3064c4`
+- `PRINT_RELAY_TOKEN` → 塚本さんに別途(LINEやメールなど、リポジトリに書かない経路で)問い合わせて教えてもらう値
 - `PRINTER_NAME` → 手順4で確認した正確なプリンター名
 
 ### 6. Renderの環境変数を確認
 
-Renderダッシュボード（https://dashboard.render.com）→ `koushien-booking` サービス → Environment タブに `PRINT_RELAY_TOKEN` = `49842849d2f39ec7e1eeeab96313b715e6e0ad62fd3064c4` が設定されているか確認。なければ追加してもらう（ユーザーのRenderアカウントへのログインが必要）。
+Renderの環境変数設定は塚本さんが対応します(現地PC側では対応不要)。
 
 ### 7. 実行・テスト
 

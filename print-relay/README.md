@@ -13,12 +13,12 @@ TSP100III(TSP143IIILAN) はCloudPRNT非対応のため、予約サーバー(Rend
 
 1. `start.ps1` をメモ帳などで開く
 2. 以下の3行を書き換える：
-   - `PRINT_RELAY_TOKEN` → `49842849d2f39ec7e1eeeab96313b715e6e0ad62fd3064c4`
+   - `PRINT_RELAY_TOKEN` → 塚本さんに別途(LINEやメールなど)問い合わせて教えてもらう値
    - `PRINTER_NAME` → Windowsに登録されているプリンターの正確な名前
    - `API_BASE` はそのままでOK
 3. 保存
 
-同じトークンを、Renderの `koushien-booking` サービスの環境変数 `PRINT_RELAY_TOKEN` にも設定する必要があります（Renderダッシュボード → koushien-booking → Environment → Add Environment Variable）。すでに設定済みであれば不要です。
+同じトークンを、Renderの `koushien-booking` サービスの環境変数 `PRINT_RELAY_TOKEN` にも設定する必要があります（Renderダッシュボード → koushien-booking → Environment → Add Environment Variable）。すでに設定済みであれば不要です。これは塚本さんが対応します。
 
 ## 実行
 
